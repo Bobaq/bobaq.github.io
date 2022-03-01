@@ -1,38 +1,56 @@
+
 h1,h2{
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
-    color:black;
 }
-tr,th,td{
-    border: 1px solid lightgray;
-    border-radius: 5px;
-    padding: 10px 10px 10px 10px;
+td{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 10px 10px 10px;  
+    border-left: thin dotted rgb(245, 245, 245); 
 }
+tr{
+    border-bottom: 1px solid lightgray; 
+    
+}
+tbody tr:last-child, tfoot{
+    border-bottom: 2px solid #009879;
+}
+
 th{
-    background-color: rgb(232, 255, 196);
-}
-table{
-    max-width:650px;
-    border: 2px solid gray;
-    border-radius: 5px;
-    margin: 0 auto;
-}
-th {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;;
     padding:10px;
+    background-color: #009879;
+    color:white;
+}
+
+
+th:first-child {
+  border-radius: 10px 0 0 0;
+}
+th:last-child {
+    border-radius: 0 10px 0 0;
+  }
+table{
+    max-width:650px;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 tr:hover{
     background-color: rgb(243, 243, 243);
 }
 td.code{
     
-    color:rgb(74, 136, 15);
+    color: #009879;
     font-weight: bold;
 }
 .podpis{
     font-style: italic;
     font-weight:100;
+    font-size: 12px;
     text-align: center;
     color: lightgray;
 }
