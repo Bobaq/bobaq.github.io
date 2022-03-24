@@ -1,0 +1,143 @@
+body{
+    background-color: black;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0px;
+}
+header{
+    background-color: black;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    height:69px;
+    border-bottom: 1px solid seashell;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+a{
+    color: seashell;
+
+}
+.logo{
+    height:50px;
+}
+a:hover, a:active{
+    color: rgb(211, 211, 211);
+    transition: color 0.2s ease-out;
+}
+ul li{
+    display: inline-flex;
+    align-items: flex-end;
+}
+ul li a{
+    padding: 0px 30px 0px 0px;
+}
+main{
+    padding-top:69px;
+}
+#logo{
+    padding-left:10px;
+    max-height:50px;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+#mainbanner{
+    background-image:url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height:700px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 2;
+}
+#titlebanner{
+    min-height: 200px;
+    background-color: black;
+    text-align: center;
+    margin-top:0px;
+    flex-shrink: 2;
+    flex-grow: 1;
+}
+
+#titlebanner h2{
+    border-bottom: 1px solid seashell;
+}
+
+#titlecontent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin:40px 0px 40px 0px;
+}
+
+.box{
+    max-width:300px;
+
+
+
+}
+.box-img{
+    width:300px;
+    height:200px;
+    margin:0px;
+    padding:0px;
+
+}
+.box h4{
+    margin:10px 0px 10px 0px;
+}
+
+#footerbanner{
+    background-image:url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height:500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.footercontainer{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+
+
+    
+}
+.footerbox{
+    width: 300px;
+    background-color: black;
+    text-align: center;
+    margin-top:0px;
+
+    
+    flex-shrink: 2;
+    flex-grow: 1;
+    opacity: 1;
+    
+    
+}
+
+#footer{
+    height:200px;
+    margin-top: 40px;
+}
+#footer h6{
+    text-align: left;
+    padding-left: 20px;
+}
