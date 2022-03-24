@@ -4,93 +4,110 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <title>Tea Cozy</title>
 </head>
 <body>
-    <h1>
-        HTML Table Reference
-    </h1>
-    <h2>
-        Table Tags
-    </h2>
+    <header>
+        <a class="logo" href="#"><img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-logo.png"  id="logo"></img></a>
+        <ul>
+            <li><a href="">Mission</a></li>
+            <li><a href="">Featured Tea</a></li>
+            <li><a href=""></>Locations</a></li>
 
-    <table>
-        <thead>
-                <th>Tag</th>
-                <th>Name </th>
-                <th>Description</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="code">&lt;table&gt;</td>
-                <td>Table</td>
-                <td>The wrapper element for all HTML tables.</td>
-            </tr>
-            <tr>
-                <td class="code">&lt;thead&gt;</td>
-                <td>Table Head	</td>
-                <td>The set of rows defining the column headers in a table.
-                </td>
-            </tr>
-            <tr>
-                <td class="code">&lt;tbody&gt;</td>
-                <td>Table Body	</td>
-                <td>The set of rows containing actual table data.
-                </td>
-            </tr>
-            <tr>
-                <td class="code">&lt;tr&gt;</td>
-                <td>Table Row	</td>
-                <td>The table row container.
-                </td>
-            </tr>
-            <tr>
-                <td class="code">&lt;td&gt;</td>
-                <td>Table Data	</td>
-                <td>The table row container.</td>
-            </tr>
-            <tr>
-                <td class="code">&lt;tfoot&gt;</td>
-                <td>Table Foot</td>
-                <td>The set of rows defining the footer in a table.</td>
-            </tr>
+        </ul>
+    </header>
+    <main>
+        <div id="mainbanner">
+            <div id="titlebanner">
+                <h2>
+                   Our Mission         
+                </h2>
+                <h4>
+                    Handpicked, Artisanally Curated, Free Range, Sustainable, Small Bath, Fair Trade, Organic Tea
+                </h4>
+            </div>
+
+        </div>
+
+        <div id="maincontent">
             
-        </tbody>
-        <tfoot>
+                <h2>
+                   Tea of the Month       
+                </h2>
+                <h4>
+                    What's Steeping at The Tea Cozy?
+                </h4>
+                <div id="titlecontent">
+                <div class="box">
+                    <a class="box-img" href="#"><img class="box-img" src="https://content.codecademy.com/courses/freelance-1/unit-4/img-berryblitz.jpg"></img></a>
+                    <h4>Fall Berry Blitz Tea</h4>
+                </div>
+                <div class="box">
+                    <a class="box-img" href="#"><img class="box-img" src="https://content.codecademy.com/courses/freelance-1/unit-4/img-spiced-rum.jpg"></img></a>
+                    <h4>Spiced Rum Tea</h4>
+                </div>
+                <div class="box">
+                    <a class="box-img" href="#"><img class="box-img" src="https://content.codecademy.com/courses/freelance-1/unit-4/img-donut.jpg"></img></a>
+                    <h4>Seasonal Donuts</h4>
+                </div>
+                <div class="box">
+                    <a class="box-img" href="#"><img class="box-img" src="https://content.codecademy.com/courses/freelance-1/unit-4/img-myrtle-ave.jpg"></img></a>
+                    <h4>Myrtle Ave Tea</h4>
+                </div>
+                <div class="box">
+                    <a class="box-img" href="#"><img class="box-img" src="https://content.codecademy.com/courses/freelance-1/unit-4/img-bedford-bizarre.jpg"></img></a>
+                    <h4>Bedford Bizarre Tea</h4>
+                </div>
+            </div>
 
-        </tfoot>
-       
-
-    </table>
-
-    <h2>Table Attributes</h2>
-    <table>
-        <thead>
-            <th>Attribute</th>
-            <th>Name</th>
-            <th>Description</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td class="code">colspan</td>
-                <td>Column Span</td>
-                <td>Defines how many columns a td element should span.</td>
-            </tr>
-            <tr>
-                <td class="code">rowspan</td>
-                <td>Row Span</td>
-                <td>Defines how many rows a td element should span.</td>
-            </tr>
-        </tbody>
-        <tfoot>
+        </div>
+        
+        <div id="footerbanner">
             
-                <td colspan= 3 class="podpis">Made by Bobaq 01.03.2022</td>
-            
-        </tfoot>
-    </table>
+                <h2>
+                   Locations       
+                </h2>
+                <div class="footercontainer">
+                    <div class="footerbox">
+                        <h2>Downtown</h2>
+                        <h3>384 West 4th St</h3>
+                        <h3>Suite 108</h3>
+                        <h3>Portland, Maine</h3>
+                    </div>
+                    <div class="footerbox">
+                        <h2>Downtown</h2>
+                        <h3>384 West 4th St</h3>
+                        <h3>Suite 108</h3>
+                        <h3>Portland, Maine</h3>
+                    </div>
+                    <div class="footerbox">
+                        <h2>Downtown</h2>
+                        <h3>384 West 4th St</h3>
+                        <h3>Suite 108</h3>
+                        <h3>Portland, Maine</h3>
+                    </div>
 
+                </div>
+            </div>
 
+        </div>
+        <div id="footer">
+            <h2>
+                The Tea Cozy  
+             </h2>
+             <h5>
+                917-555-8904
+             </h5>
+             <h5>
+                contact@thecozy.com
+             </h5>
+             <h6>
+                Copyright The Tea Cozy 2017
+             </h6>
+        </div>
 
+   
+    </main>
 </body>
 </html>
