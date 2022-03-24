@@ -65,10 +65,11 @@ main{
     margin-top:0px;
     flex-shrink: 2;
     flex-grow: 1;
+    max-width:800px;
 }
 
 #titlebanner h2{
-    border-bottom: 1px solid seashell;
+    
 }
 
 #titlecontent{
